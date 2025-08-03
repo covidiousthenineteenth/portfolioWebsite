@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body className={`${inter.className} bg-cosmic text-white`}>
-        <ParticlesBackground />  // Use the new component here
+        <ParticlesBackground />  {/* Use the new component here */}
         <div className="relative z-10">
           <Header />
           {children}

@@ -17,7 +17,7 @@ export default function Home() {
         className="text-center"
       >
         <h1 className="text-5xl font-bold mb-4">Welcome to My Cosmic Portfolio</h1>
-        <p className="text-xl">Exploring code like stars in the universe. Let's connect!</p>
+        <p className="text-xl">Exploring code like stars in the universe. Let&apos;s connect!</p>
         <img src="/profile.jpg" alt="Your Photo" className="mx-auto rounded-full w-32 h-32 mt-4" />
       </motion.section>
 
