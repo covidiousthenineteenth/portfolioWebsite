@@ -16,7 +16,7 @@ export default function Home() {
         transition={{ duration: 1 }}
         className="text-center"
       >
-        <h1 className="text-5xl font-bold mb-4">Hi, I'm Juan - Full Stack Developer and Innovator</h1>
+        <h1 className="text-5xl font-bold mb-4">Hi, I&apos;m Juan - Full Stack Developer and Innovator</h1>
         <p className="text-xl">Turning ideas into reality with code that pushes boundaries Let&apos;s connect!</p>
         <img src="/profile.jpg" alt="Your Photo" className="mx-auto rounded-full w-32 h-32 mt-4" />
       </motion.section>
