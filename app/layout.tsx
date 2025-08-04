@@ -8,7 +8,7 @@ import ParticlesBackground from "@/components/ParticlesBackground";  // New comp
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Your Name - Portfolio",
+  title: "Juan Poma - Portfolio",
   description: "Innovative developer portfolio showcasing projects and experience.",
 };
 

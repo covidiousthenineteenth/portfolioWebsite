@@ -79,8 +79,8 @@ export default function Home() {
       {/* Contact */}
       <section id="contact">
         <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
-        <p>Email: <a href="mailto:your.email@example.com" className="text-nebula">your.email@example.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/yourusername" className="text-nebula">linkedin.com/in/yourusername</a></p>
+        <p>Email: <a href="mailto:johnrupay18@gmail.com" className="text-nebula">mailto:johnrupay18@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/juanpoma/" className="text-nebula">https://www.linkedin.com/in/juanpoma/</a></p>
       </section>
     </main>
   );
