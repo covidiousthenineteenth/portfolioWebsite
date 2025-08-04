@@ -25,19 +25,20 @@ export interface Project {
   
   export const projects: Project[] = [
     { title: "Mathematic for kids", description: "Vite and React based Math game that challenges kids on basic math mental calculations", link: "https://mathematics-for-kidz.vercel.app" },
-    { title: "Card Reader for Visually Impaired People", description: "built an application for blind people that allows them to scan any set of playing cards and use the app to take a picture and to get a description of it", link: "https://card-reader.meteoraapp.com/" },
-    { title: "Crypto Token Exchange", description: "Designed and built Solidy based token exchanged and deployed multiple ERC-20 smart contracts using EVM", link: "https://covid-token-exchange.herokuapp.com/" },
-    { title: "Be the GOAT Unity Based Game", description: "Built a 2d game that allow user to traverse through obstacles to reach a final destinatio &apos;valhalla&apos; ", link: "https://klaw117.itch.io/lawpomaproject?secret=GQgyLopRMcYQ8tqv5Knj1d8" },
+    { title: "Card Reader for Visually Impaired People", description: "built an application for blind people that allows them to scan any set of playing cards, users use the app to take a picture and get a voice description of it", link: "https://card-reader.meteoraapp.com/" },
+    { title: "Crypto Token Exchange", description: "Designed and built Solidy based token exchanged during a Solidity bootcamp, and deployed multiple ERC-20 smart contracts using EVM", link: "https://covid-token-exchange.herokuapp.com/" },
+    { title: "Be the GOAT Unity Based Game", description: "Built a 2d game that allow user to traverse through obstacles to reach the final destination of VALHALLA ", link: "https://klaw117.itch.io/lawpomaproject?secret=GQgyLopRMcYQ8tqv5Knj1d8" },
     { title: "Space Smuggler Unity Based Game", description: "Built a 3d game about space smugglers who have to fly through space avoiding asteroids to deliver contraband", link: "https://klaw117.itch.io/lawpomamerchantproject?secret=L1TWgiB9HMCHTOTG2fsDP192i0" },
     // Add more...
   ];
   
   export const experiences: Experience[] = [
     { title: "Data Scientist", company: "The Boeing Company", period: "Feb 2023 - Present", description: "Write python, vsb scripts and xqueries to perform 100% accurary data validations of large volumes of XML based data" },
-    { title: "PLM Process and Notes Team Lead", company: "The Boeing Company", period: "Feb 2019 - Feb 2023", description: "Lead a team that represents the company in code testing, documentation and acceptance of third party PLM and CAD based software delivery" },
-    { title: "Application Manager", company: "The Boeing Company", period: "July 2017 - January 2019", description: "Conduct failure analysis of software development best practices and work with application subject matter experts to perform too risk analysis that complies with the Federal Aviation Administration (FAA)" },
-    { title: "IT Engineer", company: "The Boeing Company", period: "June 2016 - July 2017", description: "Lead a team that represents the company in code testing, documentation and acceptance of third party PLM and CAD based software delivery" },
-    { title: "PLM Process and Notes Team Lead", company: "The Boeing Company", period: "Feb 2019 - January 2023", description: "Performed end user support and software testing and developed test plans following AD&apos;S methodology" },
+    { title: "PLM Process and Notes Team Lead", company: "The Boeing Company", period: "Feb 2019 - Feb 2023", description: "Led a team that represents the company in code testing, documentation and acceptance of third party PLM and CAD based software delivery" },
+    { title: "Application Manager", company: "The Boeing Company", period: "July 2017 - February 2019", description: "Conducted failure analysis of software development best practices and work with application subject matter experts to perform tool risk analysis that complies with the Federal Aviation Administration (FAA)" },
+    { title: "IT Engineer", company: "The Boeing Company", period: "June 2016 - July 2017", description: "Performed end user support and software testing and developed test plans following AD&apos;S methodology" },
+    { title: "Tier 2 Helpdesk Support", company: "Deep Blue Communications", period: "December 2015 - April 2016", description: "Used OSI model and TCP/IP protocols to troubleshoot and document network issues" },
+    { title: "Front End Website Developer", company: "Ecualimo Taxi Services", period: "July 2015 - December 2015", description: "Built and tested Front End website using Typescript, React, and Redux and assisted in development work of the dispatching site RESTFUL API" },
     // Add more...
   ];
   
@@ -60,16 +61,22 @@ export interface Project {
   export const skills: Skill[] = [
     { name: "React", level: 95 },
     { name: "TypeScript", level: 90 },
+    { name: "Agile and PM", level: 89 },
     { name: "Next.js", level: 85 },
     { name: "Python", level: 70 },
+    { name: "Unity Game Dev", level: 55 },
     { name: "XQuery", level: 60 },
-    { name: "data science", level: 65 },
+    { name: "data science", level: 69 },
+    { name: "Vite", level: 50 },
+    { name: "SQL", level: 45 },
+    { name: "C#", level: 40 },
     // Add more (for radar chart)...
   ];
   
   export const funFacts: string[] = [
     "I am incan descendant",
-    "I am passionate about helping students prepare for the workforce.",
-    "I watched LOTR extended edition trilogy in an entire day.",
+    "At some point, I was a college mentor to 20 college students at a time, I am very passionate about helping students prepare for the workforce",
+    "I finished the LOTR extended edition trilogy in an entire day",
+    "I have been deligently waiting and watching One Piece new episodes since 2005; May God bless Oda!",
     // Add more...
   ];
