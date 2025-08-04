@@ -24,7 +24,8 @@ export interface Project {
   }
   
   export const projects: Project[] = [
-    { title: "Card Reader for Visually Impaired People", description: "built an application for blind people that allows them to read any board game cards. User is able to scan any set of playing cards and use the app to take a picture of the car to get a description of it", link: "https://card-reader.meteoraapp.com/" },
+    { title: "Mathematic for kids", description: "Vite and React based Math game that challenges kids on basic math mental calculations", link: "https://mathematics-for-kidz.vercel.app" },
+    { title: "Card Reader for Visually Impaired People", description: "built an application for blind people that allows them to scan any set of playing cards and use the app to take a picture and to get a description of it", link: "https://card-reader.meteoraapp.com/" },
     { title: "Crypto Token Exchange", description: "Designed and built Solidy based token exchanged and deployed multiple ERC-20 smart contracts using EVM", link: "https://covid-token-exchange.herokuapp.com/" },
     { title: "Be the GOAT Unity Based Game", description: "Built a 2d game that allow user to traverse through obstacles to reach a final destinatio &apos;valhalla&apos; ", link: "https://klaw117.itch.io/lawpomaproject?secret=GQgyLopRMcYQ8tqv5Knj1d8" },
     { title: "Space Smuggler Unity Based Game", description: "Built a 3d game about space smugglers who have to fly through space avoiding asteroids to deliver contraband", link: "https://klaw117.itch.io/lawpomamerchantproject?secret=L1TWgiB9HMCHTOTG2fsDP192i0" },
