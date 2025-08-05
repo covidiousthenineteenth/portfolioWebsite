@@ -69,7 +69,9 @@ export interface Project {
     { name: "data science", level: 69 },
     { name: "Vite", level: 50 },
     { name: "SQL", level: 45 },
-    { name: "C#", level: 40 },
+    { name: "Solidity", level: 40 },
+    { name: "Rust", level: 35 },
+    { name: "C#", level: 30 },
     // Add more (for radar chart)...
   ];
   
